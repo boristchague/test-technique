@@ -1,0 +1,1 @@
+../src/10_foo_struct.sql
