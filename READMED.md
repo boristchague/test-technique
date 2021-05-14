@@ -9,7 +9,7 @@ Ce test a pour but d'évaluer votre capacité à répondre aux exigences suivant
 - Etre capable de travailler en autonomie, et donc de comprendre un besoin utilisateur pour proposer une solution adaptée à celui-ci.
 - Être capable d'écrire des tests afin d'assurer l'exactitude des résultats.
 
-Ce test ne cherche pas spécifiquement à évaluer votre compétence avec un langage donné. Il n'est donc pas spécialement limité dans le temps, de plus vous pouvez utiliser toute documentation à votre disposition ( ce qui inclut Google ).
+Ce test ne cherche pas spécifiquement à évaluer votre compétence avec un langage donné. Il n'est donc pas spécialement limité dans le temps, de plus vous pouvez utiliser toute documentation à votre disposition ( ce qui inclut Google ). De plus, bien que le projet lié à ce test puisse normalement être exécuté dans un environnement Linux, l'exécuter ne devrait pas être nécessaire pour répondre aux différentes questions.
 
 Finalement, si vous avez davantage de facilités à répondre en anglais, les réponses en anglais seront acceptées.
 
@@ -18,7 +18,7 @@ Finalement, si vous avez davantage de facilités à répondre en anglais, les r�
 Comme vous l'avez sans doute constaté, ce fichier est inclus dans un projet. 
 
 Pourriez vous expliquer le fonctionnement général de ce projet ?
-Dans quel environnement ce projet sera-t-il déployé ?
+Dans quel environnement de production ce projet sera-t-il déployé ?
 Quel est le point d'entrée du projet ?
 Comment sont sélectionnés les fichiers à exécuter ?
 Quels sont les fichiers procédant à des écritures de données ?
@@ -83,11 +83,10 @@ CREATE OR REPLACE TABLE tampons (
 
 Votre clients vous demande de rendre ces données plus faciles à analyser, notamment pour en extraire les analyses suivantes :
 - temps moyen entre deux premières entrées dans deux pays. (ex: en moyenne une personne entrée pour la première fois au Royaume-Unis rentre pour la première fois en France 652 jours après. )
-- % des entrées dans un pays suivie ultérieurement par une entrée dans un autre pays. (ex: 3% des personnes entrées en France sont ensuite entrées en Allemagne, 10% au Royaume-Uni, 1% en Allemagne ET au Royaume-Uni. )
-- % des passeports étant déjà entrés dans une liste de pays. ( ex : combien sont déjà allés en France et Allemagne sans aller au Royaume-Uni )
+- % des personnes entrées au moins une fois dans un pays entrant ultérieurement dans un autre pays. (ex: 3% des personnes entrées en France sont par la suite entrées en Allemagne, 10% au Royaume-Uni, 1% en Allemagne ET au Royaume-Uni. )
+- % des passeports étant déjà entrés au moins une fois dans une liste de pays. ( ex : combien sont déjà allés en France et Allemagne sans aller au Royaume-Uni )
 
 Quel format de données proposeriez vous à votre client ? Écrire du code n'est pas nécessaire, vous pouvez juste proposer un schéma de table.
-
 
 ## 3. Ecriture de tests
 
