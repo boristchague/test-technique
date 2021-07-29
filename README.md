@@ -17,14 +17,14 @@ Finalement, si vous avez davantage de facilités à répondre en anglais, les r�
 
 Comme vous l'avez sans doute constaté, ce fichier est inclus dans un projet. 
 
-Pourriez vous expliquer le fonctionnement général de ce projet ?
-Dans quel environnement de production ce projet sera-t-il déployé ?
-Quel est le point d'entrée du projet ?
-Comment sont sélectionnés les fichiers à exécuter ?
-Quels sont les fichiers procédant à des écritures de données ?
-Quelles sont les données écrites ?
-Des données pré-existantes sont-elles modifiées ? Si oui, lesquels ?
-Ce projet a-t-il des sources de données extérieures ? Si oui, lesquels ?
+- Pourriez vous expliquer le fonctionnement général de ce projet ?
+- Dans quel environnement de production ce projet sera-t-il déployé ?
+- Quel est le point d'entrée du projet ?
+- Comment sont sélectionnés les fichiers à exécuter ?
+- Quels sont les fichiers procédant à des écritures de données ?
+- Quelles sont les données écrites ?
+- Des données pré-existantes sont-elles modifiées ? Si oui, lesquels ?
+- Ce projet a-t-il des sources de données extérieures ? Si oui, lesquels ?
 
 Vous êtes également invité à communiquer toutes remarques supplémentaires que vous auriez à faire sur ce projet.
 
