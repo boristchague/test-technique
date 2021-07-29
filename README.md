@@ -187,6 +187,21 @@ SELECT * FROM books;
 -- +----+-----------+-----------+-----------------+
 ```
 
+## 4. Ecriture de code
+
+Sauriez vous générer 10 millions de lignes réparties de façon déterministe sur 6 types de test pour la table suivante ?
+
+```sql
+CREATE OR REPLACE TABLE `foobar`.`trucs` (
+	id_truc int,
+	type varchar(255),
+	msg varchar(255),
+	PRIMARY KEY ( id_truc )
+) ENGINE=InnoDB;
+```
+
+
+
 
 
 
