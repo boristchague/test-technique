@@ -189,7 +189,7 @@ SELECT * FROM books;
 
 ## 4. Ecriture de code
 
-Sauriez vous générer 10 millions de lignes réparties de façon déterministe sur 6 types de test pour la table suivante ?
+Sauriez vous générer 10 millions d'entrées de test réparties de façon déterministe sur 6 types pour la table suivante ?
 
 ```sql
 CREATE OR REPLACE TABLE `foobar`.`trucs` (
