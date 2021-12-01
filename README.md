@@ -8,6 +8,7 @@ Ce test a pour but d'évaluer votre capacité à répondre aux exigences suivant
 - Être capable de comprendre l'existant
 - Etre capable de travailler en autonomie, et donc de comprendre un besoin utilisateur pour proposer une solution adaptée à celui-ci.
 - Être capable d'écrire des tests afin d'assurer l'exactitude des résultats.
+- Être capable d'écrire du code afin de répondre à un besoin technique.
 
 Ce test ne cherche pas spécifiquement à évaluer votre compétence avec un langage donné. Il n'est donc pas spécialement limité dans le temps, de plus vous pouvez utiliser toute documentation à votre disposition ( ce qui inclut Google ). De plus, bien que le projet lié à ce test puisse normalement être exécuté dans un environnement Linux, l'exécuter ne devrait pas être nécessaire pour répondre aux différentes questions.
 
@@ -90,7 +91,9 @@ Quel format de données proposeriez vous à votre client ? Écrire du code n'est
 
 ## 3. Ecriture de tests
 
-Si vous deviez écrire les tests unitaires pour le code SQL suivant, quels tests écririez-vous ? Vous n'avez pas besoin d'écrire du code, juste de lister les différents cas et résultats que vous comptez tester.
+Si vous deviez écrire les tests unitaires pour le code SQL suivant, quels sont les 5 cas que vous testeriez en priorité ?
+
+Vous n'avez pas besoin d'écrire du code, juste de lister les différents cas que vous comptez tester.
 
 ```sql
 INSERT INTO books (
