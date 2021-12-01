@@ -19,7 +19,7 @@ APACHE_CONTAINER=$(docker run --rm -d \
 		
 REMOTE_IP=$(docker inspect "$APACHE_CONTAINER" | jq -r '.[0].NetworkSettings.IPAddress')
 
-docker build --file $DIR/test/dockerfile --tag mini-project .
+docker build --file $DIR/test/Dockerfile --tag mini-project .
 
 MARIADB_CONTAINER=$(docker run \
 	-d \
@@ -32,4 +32,3 @@ MARIADB_CONTAINER=$(docker run \
 	mini-project)
 
 docker exec -ti $MARIADB_CONTAINER /src/test/run.sh "$REMOTE_IP"
-
