@@ -82,12 +82,13 @@ CREATE OR REPLACE TABLE tampons (
 -- +----+-------------+---------+---------------------+
 ```
 
-Votre clients vous demande de rendre ces données plus faciles à analyser, notamment pour en extraire les analyses suivantes :
-- temps moyen entre deux premières entrées dans deux pays. (ex: en moyenne une personne entrée pour la première fois au Royaume-Unis rentre pour la première fois en France 652 jours après. )
-- % des personnes entrées au moins une fois dans un pays entrant ultérieurement dans un autre pays. (ex: 3% des personnes entrées en France sont par la suite entrées en Allemagne, 10% au Royaume-Uni, 1% en Allemagne ET au Royaume-Uni. )
-- % des passeports étant déjà entrés au moins une fois dans une liste de pays. ( ex : combien sont déjà allés en France et Allemagne sans aller au Royaume-Uni )
+Votre client vous indique qu'il souhaite analyser la durée moyenne entre les deux premières entrées dans des pays arbitraires.
 
-Quel format de données proposeriez vous à votre client ? Écrire du code n'est pas nécessaire, vous pouvez juste proposer un schéma de table.
+En guise d'exemple, votre client vous cite la durée moyenne entre la première entrée en France et la première entrée en Allemagne.
+
+Sachant que votre client exploite par la suite les données par le biais d'un tableur grand publique tel que Excel, quel format de données lui proposeriez vous ? 
+
+Il n'est pas nécessaire d'écrire du code, vous pouvez simplement proposer un schéma de tables ou un exemple de jeu de données.
 
 ## 3. Ecriture de tests
 
