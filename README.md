@@ -194,8 +194,8 @@ SELECT * FROM books;
 ## 4. Ecriture de code
 
 Sauriez vous générer 10 millions d'entrées de test pour la table suivante ?
-- Point bonus si vous les répartisez sur 6 types differents.
-- Point bonus si vous les répartisez de façon déterministe.
+- Point bonus si vous les répartissez sur 6 types differents.
+- Point bonus si vous les répartissez de façon déterministe.
 
 ```sql
 CREATE OR REPLACE TABLE `foobar`.`trucs` (
