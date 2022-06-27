@@ -1,0 +1,7 @@
+3. Ecriture de tests
+
+    ¤ Tester que le a.id_author (author.id_author) n'est jamais null sinon COALESCE(a.id_author, da.id_author) sera null
+
+    ¤ Tester que da.name (death_author.name) contient bien une valeur
+
+    ¤ Vérifier qu'il y ait des valeur de book._creation_date > '1950-01-01 00:00:00'
