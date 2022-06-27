@@ -1,0 +1,54 @@
+Ce fichier Contient les réponses aux questions du fichier README.md
+
+
+1. Comprendre l'exstant
+
+    ¤ Pourriez vous expliquer le fonctionnement général de ce projet ?
+        Le projet à pour but d'exécuter un certain nombre de requete sql.
+        Le point d'entrée => sql_test/run.sh lit les fichier du dossier run pour récupérer les chémins
+        d'exécution des fichiers du dossier src :
+        - 10_foo_struc.sql      : création de la table foo
+        - 20_foo.sql            : création, insertion dans la table foo_tmp et insertion dans la table foo
+        - 30_import_struct.sql  : création de la table trucs
+        - 40_import.sh          : téléchargement d'un fichier pour insérer dans la table trucs
+
+
+
+
+    ¤ Dans quel environnement de production ce projet sera-t-il déployé ?
+        sur un serveur linux
+
+
+    ¤ Quel est le point d'entrée du projet ?
+        le fichier sql_test/run.sh
+
+
+    ¤ Comment sont sélectionnés les fichiers à exécuter ?
+        Grâce à une boucle dans run.sh qui lisant les chemins des fichier run/*
+        si l'extention se termine par :
+            - sql) on execute avec mysql => mysql -e "source $filename;" foobar
+            foobar étant le nom de la table
+
+		    - sh) execute les fichier du style sh
+
+		    - *) renvois un log de lecture du fichier
+
+ 
+    ¤ Quels sont les fichiers procédant à des écritures de données ?  src/*
+        - 10_foo_struc.sql              - 20_foo.sql
+        - 30_import_struct.sql          - 40_import.sh
+
+
+    ¤ Quelles sont les données écrites ?
+        - 10_foo_struc.sql      : création de la table foo
+        - 20_foo.sql            : création, insertion dans la table foo_tmp et insertion dans la table foo
+        - 30_import_struct.sql  : création de la table trucs
+        - 40_import.sh          : téléchargement d'un fichier pour insérer dans la table trucs
+
+
+    ¤ Des données pré-existantes sont-elles modifiées ? Si oui, lesquels ?
+        Non
+
+
+    ¤ Ce projet a-t-il des sources de données extérieures ? Si oui, lesquels ?
+        Oui le fichier http://foobar.wtf/trucs.csv sur internet
