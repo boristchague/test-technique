@@ -1,0 +1,13 @@
+
+2. Travailler à partir d'un besoin utilisateur
+
+    ¤ Quel format de données lui proposeriez vous ?
+    Fomat csv (séparateur point-virgule ou virgule )
+
+    ¤ Structure de la base
+    // ./uml.png
+    Un passeport contient zéro ou plusieurs lignes d'entrées de tempons
+    Un tempon est contenu dans un seul passeport
+    Un tempon appartient à un et un seul pays
+    Un pays peut avoir zéro ou plusieurs tempons
+
